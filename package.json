@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "description": "中文开发者效率工具箱项目主页，汇总 README Doctor 与 Windows Dev Doctor。",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunxi067/dev-toolbox-cn.git"
+  },
+  "homepage": "https://github.com/yunxi067/dev-toolbox-cn#readme",
+  "bugs": {
+    "url": "https://github.com/yunxi067/dev-toolbox-cn/issues"
+  },
   "scripts": {
     "test": "node scripts/validate.mjs"
   },
