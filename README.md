@@ -11,8 +11,8 @@ Dev Toolbox CN 是一个中文开发者效率工具箱主页，用来汇总和�
 
 | 工具 | 状态 | 解决的问题 | 仓库 | Release |
 | --- | --- | --- | --- | --- |
-| README Doctor | v0.1.0 | 检查 GitHub README 是否包含安装、使用示例、截图、License、贡献方式和 FAQ | [readme-doctor](https://github.com/yunxi067/readme-doctor) | [v0.1.0](https://github.com/yunxi067/readme-doctor/releases/tag/v0.1.0) |
-| Windows Dev Doctor | v0.1.0 | 检查 Windows 开发环境里的 Git、Node、Python、Java、Docker、环境变量和端口占用 | [windows-dev-doctor](https://github.com/yunxi067/windows-dev-doctor) | [v0.1.0](https://github.com/yunxi067/windows-dev-doctor/releases/tag/v0.1.0) |
+| README Doctor | v0.1.0 + Unreleased | 检查 GitHub 或本地 README 是否包含安装、使用示例、截图、License、贡献方式和 FAQ | [readme-doctor](https://github.com/yunxi067/readme-doctor) | [v0.1.0](https://github.com/yunxi067/readme-doctor/releases/tag/v0.1.0) |
+| Windows Dev Doctor | v0.1.0 + Unreleased | 检查 Windows 开发环境里的工具链、环境变量、配置、隐私输出和端口占用 | [windows-dev-doctor](https://github.com/yunxi067/windows-dev-doctor) | [v0.1.0](https://github.com/yunxi067/windows-dev-doctor/releases/tag/v0.1.0) |
 
 ## 快速使用
 
@@ -30,6 +30,7 @@ git clone https://github.com/yunxi067/readme-doctor.git
 cd readme-doctor
 npm install
 npm start -- owner/repo
+node src/cli.js ./README.md --format markdown
 ```
 
 ```bash
@@ -37,6 +38,7 @@ git clone https://github.com/yunxi067/windows-dev-doctor.git
 cd windows-dev-doctor
 npm install
 npm start
+node src/cli.js --privacy --fix-plan
 ```
 
 ## 为什么做这个工具箱
@@ -58,10 +60,10 @@ npm start
 
 详见 [docs/roadmap.md](./docs/roadmap.md)。
 
-近期计划：
+近期进度：
 
-- README Doctor v0.2.0：支持本地 README 文件、中文 README 规则、Markdown 报告。
-- Windows Dev Doctor v0.2.0：支持 WSL、PowerShell 执行策略、pnpm/yarn、Maven/Gradle、隐私模式。
+- README Doctor 已补充 v0.2.0 预备能力：本地 README 文件、中文 README 规则、Markdown 报告。
+- Windows Dev Doctor 已补充 v0.2.0 预备能力：WSL、PowerShell 执行策略、pnpm/yarn、Maven/Gradle、npm/pip 镜像源、隐私模式、修复计划。
 - 新工具候选：日志压缩器、项目结构快照器、Commit Message 检查器。
 
 ## 仓库结构

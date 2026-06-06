@@ -12,20 +12,21 @@
 
 ### README Doctor
 
-- [ ] 支持本地 README 文件路径。
-- [ ] 支持中文 README section 检测。
-- [ ] 支持 `--format markdown`。
+- [x] 支持本地 README 文件路径。
+- [x] 支持中文 README section 检测。
+- [x] 支持 `--format markdown`。
 - [ ] 支持 `--profile cli|web|library|ai`。
 - [ ] 输出 README 改进模板。
 
 ### Windows Dev Doctor
 
-- [ ] 检查 WSL 安装与版本。
-- [ ] 检查 PowerShell 执行策略。
-- [ ] 检查 pnpm/yarn。
-- [ ] 检查 Maven/Gradle。
-- [ ] 检查 pip/npm 镜像源。
-- [ ] 支持 `--privacy` 隐私模式，隐藏用户名路径。
+- [x] 检查 WSL 安装与版本。
+- [x] 检查 PowerShell 执行策略。
+- [x] 检查 pnpm/yarn。
+- [x] 检查 Maven/Gradle。
+- [x] 检查 pip/npm 镜像源。
+- [x] 支持 `--privacy` 隐私模式，隐藏用户名路径。
+- [x] 支持 `--fix-plan` 输出修复建议清单。
 
 ## v0.3.x：新增工具
 
@@ -39,4 +40,3 @@
 - 每个工具独立维护、独立 Release。
 - 总入口仓库只做导航、路线图和维护规范。
 - 避免把工具箱做成难维护的大平台。
-
