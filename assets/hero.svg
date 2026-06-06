@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Dev Toolbox CN</title>
+  <desc id="desc">中文开发者效率工具箱的项目横幅，展示 README 检查与 Windows 环境巡检。</desc>
+  <rect width="1200" height="520" fill="#111827"/>
+  <rect x="64" y="56" width="1088" height="408" rx="10" fill="#f8fafc"/>
+  <rect x="64" y="56" width="1088" height="82" rx="10" fill="#1f2937"/>
+  <circle cx="102" cy="97" r="9" fill="#ef4444"/>
+  <circle cx="134" cy="97" r="9" fill="#f59e0b"/>
+  <circle cx="166" cy="97" r="9" fill="#22c55e"/>
+  <text x="214" y="106" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Dev Toolbox CN</text>
+  <text x="96" y="206" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">中文开发者效率工具箱</text>
+  <text x="96" y="258" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="24">把小而实用的 CLI 工具做成一个有体系的开源作品集</text>
+  <rect x="96" y="318" width="460" height="98" rx="8" fill="#e0f2fe"/>
+  <text x="126" y="356" fill="#075985" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">README Doctor</text>
+  <text x="126" y="390" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="18">检查 README 是否包含安装、用法、截图、License 等基础项</text>
+  <rect x="604" y="318" width="460" height="98" rx="8" fill="#dcfce7"/>
+  <text x="634" y="356" fill="#166534" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Windows Dev Doctor</text>
+  <text x="634" y="390" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="18">检查 Git、Node、Python、Java、Docker、环境变量和端口</text>
+</svg>

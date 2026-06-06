@@ -1,0 +1,19 @@
+{
+  "name": "dev-toolbox-cn",
+  "version": "0.1.0",
+  "description": "中文开发者效率工具箱项目主页，汇总 README Doctor 与 Windows Dev Doctor。",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "developer-tools",
+    "chinese",
+    "cli",
+    "windows",
+    "readme",
+    "toolbox"
+  ],
+  "author": "yunxi067",
+  "license": "MIT"
+}
